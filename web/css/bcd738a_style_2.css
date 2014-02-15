@@ -1,6 +1,22 @@
+h1, h2,h3,h4,h5,h6{
+    font-family: Georgia, "Times New Roman", Times, serif;;
+}
+
+
 body a.siteTitle{
-    font-weight: bold;
     color: #000;
+    text-decoration: none;
+
+}
+body a.siteTitle h1 span{
+    color: #009916;
+}
+
+a{
+    color: #009916;
+}
+a:hover{
+    color: #00b017;
     text-decoration: none;
 }
 body header .description{
@@ -9,7 +25,8 @@ body header .description{
     margin-bottom: 24px;
 }
 body header .description a{
-    color: #333;
+    color: #444;
+    text-decoration: underline;
 }
 
 
@@ -21,5 +38,31 @@ body header .description a{
     background-repeat: no-repeat;
     height: 24em;
     display: block;
+}
+
+article .content{
+    margin: 24px 0px 36px 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;;
+}
+
+article .content p, article .content ul li{
+    font-size: 16px;
+    line-height: 24px;
+}
+article .content p{
+    margin-bottom: 24px;
+}
+article .content ul{
+    margin-bottom: 36px;
+}
+
+article.single h1{
+    margin-top: 60px;
+    font-size: 42px;
+}
+
+article .content pre{
+    background: #222;
+    color:#fff;
 }
 

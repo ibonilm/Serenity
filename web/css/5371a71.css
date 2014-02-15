@@ -8,68 +8,9 @@
 h1, h2,h3,h4,h5,h6{
     font-family: Georgia, "Times New Roman", Times, serif;;
 }
-
-
-body a.siteTitle{
-    color: #000;
-    text-decoration: none;
-
+.btn.create{
+    margin: -12px 0 0 6px;
 }
-body a.siteTitle h1 span{
-    color: #009916;
+textarea#content_text{
+    min-height: 500px;
 }
-
-a{
-    color: #009916;
-}
-a:hover{
-    color: #00b017;
-    text-decoration: none;
-}
-body header .description{
-    font-size: 16px;
-    color: #777;
-    margin-bottom: 24px;
-}
-body header .description a{
-    color: #444;
-    text-decoration: underline;
-}
-
-
-#image_index{
-    background-image: url('http://farm7.staticflickr.com/6023/5996048490_e7d1f8114c_b.jpg');
-    /*http://www.flickr.com/photos/comisariopolitico/5996048490/*/
-    background-size: cover;
-    background-position: 50% 40%;
-    background-repeat: no-repeat;
-    height: 24em;
-    display: block;
-}
-
-article .content{
-    margin: 24px 0px 36px 0px;
-    font-family: Georgia, "Times New Roman", Times, serif;;
-}
-
-article .content p, article .content ul li{
-    font-size: 16px;
-    line-height: 24px;
-}
-article .content p{
-    margin-bottom: 24px;
-}
-article .content ul{
-    margin-bottom: 36px;
-}
-
-article.single h1{
-    margin-top: 60px;
-    font-size: 42px;
-}
-
-article .content pre{
-    background: #222;
-    color:#fff;
-}
-
