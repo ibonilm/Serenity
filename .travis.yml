@@ -7,7 +7,7 @@ php:
 before_script:
   - composer install
   - cd vendor/simettric/serenity-bundle/Simettric/SerenityBundle
-  - composer install
+  - composer update
   - cd ../../../../../
 
 
