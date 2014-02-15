@@ -1,0 +1,25 @@
+body a.siteTitle{
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+body header .description{
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 24px;
+}
+body header .description a{
+    color: #333;
+}
+
+
+#image_index{
+    background-image: url('http://farm7.staticflickr.com/6023/5996048490_e7d1f8114c_b.jpg');
+    /*http://www.flickr.com/photos/comisariopolitico/5996048490/*/
+    background-size: cover;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    height: 24em;
+    display: block;
+}
+
