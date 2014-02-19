@@ -1,6 +1,9 @@
 <?php
 
-copy(__DIR__ . "/app/config/parameters.yml.azure", __DIR__ . "/app/config/parameters.yml");
+$target_parameters_file = __DIR__ . "/app/config/parameters.yml";
+
+if(file_exists($target_parameters_file)) unlink($target_parameters_file);
+copy(__DIR__ . "/app/config/parameters.yml.azure", $target_parameters_file);
 
 if (!file_exists("composer.phar")) {
     $url = 'https://getcomposer.org/composer.phar';
