@@ -8,6 +8,9 @@ if (!file_exists("composer.phar")) {
 }
 
 $_SERVER['argv'][1] = "update";
-$_SERVER['argv'][2] = "--prefer-dist";
-$_SERVER['argv'][3] = "-v";
+$_SERVER['argv'][2] = "--no-dev";
+$_SERVER['argv'][3] = "--prefer-dist";
+$_SERVER['argv'][4] = "-v";
+$_SERVER['argv'][5] = "--optimize-autoloader";
+
 require "composer.phar";
