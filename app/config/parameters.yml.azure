@@ -6,7 +6,7 @@ parameters:
     database_name:     %database.name%
     database_user:     %database.user%
     database_password: %database.password%
-    database_cache:    apc
+    database_cache:    array
     mailer_transport:  smtp
     mailer_host:       127.0.0.1
     mailer_user:       ~
